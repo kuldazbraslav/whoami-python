@@ -25,7 +25,7 @@ def index():
             Visitor.longitude,
             Visitor.latitude,
         )
-        .group_by(Visitor.ip_address)
+        .group_by(Visitor.ip_address, Visitor.longitude, Visitor.latitude)
         .order_by(desc('last_seen'))
         .all()
     )
