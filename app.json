@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "postdeploy": "curl -sSf http://localhost/healthcheck | grep OK"
+    }
+  }
+  
