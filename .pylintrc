@@ -1,0 +1,5 @@
+[MAIN]
+errors-only=true
+
+# disable not callable (https://github.com/pylint-dev/pylint/issues/8138)
+disable=E1102
