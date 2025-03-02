@@ -16,7 +16,7 @@ flask run
 This will start the development server with debug mode enabled and auto-reload on code changes.
 
 ### Production use
-The recommended way is running with gunicorn (uncomment `gunicorn` in `requirements.txt`):
+The recommended way is running with gunicorn
 
 ```
 gunicorn run:app
